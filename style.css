@@ -40,9 +40,10 @@ img {
 }
 
 div {
+  width: 450px;
   border-radius: 6px;
   background-color: white;
-  margin: 30px;
+  margin: 30px auto;
   padding: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
 }
@@ -60,11 +61,11 @@ ul {
   padding: 10px;
   width: 25px;
   border-radius: 50%;
-  margin: 10px 50px;
+  margin: 10px 40px;
 }
 
 @media (max-width: 900px) {
   .square-link {
-  margin: 10px 20px;
+  margin: 10px 30px;
   }
 }
