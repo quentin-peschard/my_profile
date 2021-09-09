@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+  background-color: #161a1d;
+  margin: 0;
+  color: white;
+  font-family: monospace;
+}
+
+.header img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.intro p {
+  padding-top: 50px
+}
+
+.intro h1 {
+  font-size: 35px;
+}
+.tech-stack {
+  padding: 20px;
+  text-align: center;
+}
+
+.tech-stack h2 {
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+
+.icons img {
+  height: 100px;
+  width: 150px;
+  object-fit: contain;
+}
