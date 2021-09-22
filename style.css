@@ -14,6 +14,29 @@ body {
   object-fit: scale-down;
 }
 
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  position: absolute;
+  right: 10px;
+  top: 20px
+}
+
+.links img {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(250, 250, 250, 0.8);
+  border-radius: 50px;
+  transition-duration: 0.3s;
+}
+
+.links img:hover {
+  background-color: rgba(109, 109, 109, 0.8)
+}
+
 .header img {
   height: 250px;
   width: 250px;
@@ -29,6 +52,18 @@ body {
 .intro h1 {
   font-size: 40px;
 }
+
+.banner-bottom {
+  position: absolute;
+  width: 100vw;
+  bottom: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 5px;
+}
+
 .tech-stack {
   flex-grow: 1;
   margin-top: 100px;
